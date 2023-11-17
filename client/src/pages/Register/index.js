@@ -5,7 +5,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { RegisterUser } from "../../apicalls/users";
 import { useDispatch } from "react-redux";
 import { HideLoading, ShowLoading } from "../../redux/loadersSlice";
-import './img2.css';
+
 
 function Register() {
   const navigate = useNavigate();
@@ -35,7 +35,7 @@ function Register() {
   }, []);
 
   return (
-    <div className="h-screen bg-primary flex items-center justify-center myComponent2">
+    <div className="h-screen bg-primary flex items-center justify-center ">
       <div className="authentication-form bg-white p-3 rounded">
         <h1 className="text-secondary text-2xl font-bold mb-1">
          REGISTER
