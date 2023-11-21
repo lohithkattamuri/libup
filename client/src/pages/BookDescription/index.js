@@ -32,7 +32,7 @@ function BookDescription() {
   }, []);
   return (
     bookData && <div>
-      <Row gutter={[16, 16]} align="middle" justify="center">
+      <Row gutter={[16, 16]} align="middle" justify="center" >
         <Col
           xs={24}
           sm={24}

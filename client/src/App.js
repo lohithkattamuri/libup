@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
-
+import Bookslists from "./pages/Profile/Books/booksList";
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import ContactForms from './pages/contact/Details';
 import "./stylesheets/alignments.css";
@@ -43,6 +43,8 @@ function App() {
               </ProtectedRoute>
             }
           />
+           <Route path="/bookslist" element={
+           <ProtectedRoute><Bookslists /></ProtectedRoute>} />
           <Route
             path="/profile"
             element={
@@ -51,7 +53,8 @@ function App() {
               </ProtectedRoute>
             }
           />
-           <Route path="/contact" element={<ContactForms />} />
+          
+           <Route path="/contact" element={<ProtectedRoute><ContactForms /></ProtectedRoute>} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
         </Routes>

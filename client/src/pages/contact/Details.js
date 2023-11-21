@@ -1,10 +1,16 @@
 // ContactOptions.js
 import React from 'react';
 import { Link } from "react-router-dom";
+import { Tabs } from "antd";
+import "./img2.css";
+
 const ContactForms = () => {
   
   return (
-    <div className='bg-warning py-5'>
+   
+   
+    <div className=' py-5'>
+       
     <div className="container mt-5  ">
       <h2>Contact Us</h2>
       <p>

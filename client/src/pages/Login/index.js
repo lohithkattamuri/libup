@@ -5,7 +5,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { LoginUser } from "../../apicalls/users";
 import { useDispatch } from "react-redux";
 import { HideLoading, ShowLoading } from "../../redux/loadersSlice";
-
+import "./img.css";
 
 
 
@@ -39,7 +39,8 @@ function Login() {
  
 
   return (
-    <div className="h-screen bg-info flex items-center justify-center " >
+  
+    <div className="h-screen bg-info flex items-center justify-center  myComponent backgroundImage " >
       <div className="authentication-form bg-light p-3 rounded">
         <h1 className="text-dark text-center text-2xl font-bold mb-1">
           LOGIN

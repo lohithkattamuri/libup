@@ -59,10 +59,10 @@ function ProtectedRoute({ children }) {
             <div className="flex items-center gap-1 bg-warning p-1 rounded">
               <div className="row pt-2">
 
-              <div className="col-5 pl-2">
+              <div className="col-3 px-4">
                 <Link to="/" className="text-decoration-none text-dark">Home</Link></div>
-              <div className="col-5">
-          
+              <div className="col-3 px-4">
+              
               <Link to="/profile" className="text-decoration-none text-dark"
               
                 
@@ -73,9 +73,13 @@ function ProtectedRoute({ children }) {
             
               </Link>
               </div>
-                <div className="col-2">
+              <div className="col-3 px-4">
+                  <Link to="/bookslist" className="text-decoration-none text-dark"> Bookslists</Link>
+                 </div>
+                <div className="col-3 px-4">
                   <Link to="/contact" className="text-decoration-none text-dark"> Contact</Link>
                  </div>
+                
 
             </div>
             </div>

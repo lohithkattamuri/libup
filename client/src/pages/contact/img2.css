@@ -1,0 +1,10 @@
+.myComponent2 {
+    
+    background-size: cover;
+    width: 100%;
+    height: 100%; /* Adjust the height as needed */
+  }
+  .backgroundImage {
+    background-image: url('https://d36tnp772eyphs.cloudfront.net/blogs/1/2020/09/The-Peabody-Library-building.jpg');
+  }
+  

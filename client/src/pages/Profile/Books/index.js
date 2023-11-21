@@ -131,7 +131,7 @@ function Books() {
     },
   ];
   return (
-    <div>
+    <div className="table ">
       <div className="flex justify-end">
         <Button
           title="Add Book"
@@ -143,7 +143,7 @@ function Books() {
         />
       </div>
 
-      <Table columns={columns} dataSource={books} className="mt-1" />
+      <Table columns={columns} dataSource={books} className="mt-1 " />
 
       {openBookForm && (
         <BookForm

@@ -70,7 +70,7 @@ function IssuedBooks() {
       },
     },
   ];
-  return <Table columns={columns} dataSource={issuedBooks} />;
+  return <Table columns={columns} dataSource={issuedBooks}  ></Table>;
 }
 
 export default IssuedBooks;

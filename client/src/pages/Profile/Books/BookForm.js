@@ -62,7 +62,7 @@ function BookForm({
             : null,
         }}
       >
-        <Row gutter={[20]}>
+        <Row gutter={[20]} >
           <Col span={24}>
             <Form.Item
               label="Title"
